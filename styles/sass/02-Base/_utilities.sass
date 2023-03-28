@@ -1,0 +1,10 @@
+@use './variables'
+//MIXINS
+@mixin border($color,$width)
+    border: solid $color $width
+    padding: 5px 
+@mixin btn
+        border: solid 1px variables.$black    
+        border-radius: 5px
+        background-color: variables.$black 
+        color: variables.$white           
