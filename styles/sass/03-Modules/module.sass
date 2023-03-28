@@ -1,0 +1,38 @@
+@use '../02-Base/utilities'
+@use '../02-Base/variables'
+.conteiner-form
+    display: flex
+    flex-direction: column
+    align-items: center
+    @include utilities.border(variables.$gray,1px)
+    padding: 3rem
+    width: 500px
+    h2 
+        text-align: center 
+        font-size: 2rem 
+        text-decoration: underline
+    input
+        width: 250px
+        padding: 0.5rem 
+        margin: 1rem 
+    #btn-cadastra
+        @include utilities.btn
+        margin-top:50px 
+        width: 70px
+        &:hover 
+            background-color: variables.$yellow
+            color: variables.$black
+            @include utilities.border(variables.$yellow,1px) 
+    #btn-enviar
+        @include utilities.btn 
+        width: 100px
+        margin-top: 20px 
+        cursor: pointer
+        &:hover 
+            background-color: variables.$yellow
+            color: variables.$black
+            @include utilities.border(variables.$yellow,1px) 
+.conteiner-header .lk
+    color: variables.$yellow 
+    font-size: 3rem
+    
