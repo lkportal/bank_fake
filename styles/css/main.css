@@ -29,12 +29,9 @@ button {
   color: #FFFFFF;
   margin-top: 50px;
   width: 70px;
-}
-.conteiner-form #btn-cadastra:hover {
-  background-color: #E5D81D;
-  color: #000;
-  border: solid #E5D81D 1px;
-  padding: 5px;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
 }
 .conteiner-form #btn-enviar {
   border: solid 1px #000;
@@ -44,12 +41,9 @@ button {
   width: 100px;
   margin-top: 20px;
   cursor: pointer;
-}
-.conteiner-form #btn-enviar:hover {
-  background-color: #E5D81D;
-  color: #000;
-  border: solid #E5D81D 1px;
-  padding: 5px;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .conteiner-header .lk {
